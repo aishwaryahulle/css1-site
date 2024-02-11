@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display: flex;
+    margin: 1rem;
+    justify-content:space-between;
+    background-image: url("./pexels-lisa-fotios-1006293.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+#About{
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#About .footer h1,p{
+    display: flex;
+    justify-content:center;
+    margin:1rem;
+}
+#About .content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#About input{
+    border-radius: 0.8rem;
+    padding: 1rem;
+    width: 10rem;
+}
+#Service{
+    height:100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#Service .lower{
+    display: flex;
+    justify-content: center;
+}
+#Service .upper{
+    display: flex;
+    height:10rem;
+    margin: 2rem;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#Portfolio{
+    margin: 0;
+    padding: 0;
+}
+#Portfolio img{
+    margin: 0;
+    padding: 0;
+    width: 30rem;
+}
+#Portfolio .upper,.middle{
+    display: flex;
+    justify-content: center;
+}
+.middle div{
+    padding: 0%;
+    margin: 0%;
+}
+#Portfolio .lower{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#contact{
+    height: 100vh;
+}
+#contact .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#contact .right{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+#contact .right input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+}
+#contact .right .btn{
+    border-radius: 0.8rem;
+    padding: 1rem;
+    width: 10rem;
+}
