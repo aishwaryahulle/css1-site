@@ -1,104 +1,291 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-nav{
+
+header {
     display: flex;
     margin: 1rem;
-    justify-content:space-between;
+    justify-content: space-between;
     background-image: url("./pexels-lisa-fotios-1006293.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding: 1rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
-#About{
+
+#About {
     height: 100vh;
     background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#About .footer h1,p{
-    display: flex;
-    justify-content:center;
-    margin:1rem;
-}
-#About .content{
+
+#About .footer h1,
+p {
     display: flex;
     justify-content: center;
-    align-items:center;
+    margin: 1rem;
 }
-#About input{
+
+#About .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#About input {
     border-radius: 0.8rem;
     padding: 1rem;
     width: 10rem;
 }
-#Service{
-    height:100vh;
+
+#Service {
+    height: 100vh;
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
 
-#Service .lower{
+#Service .lower {
     display: flex;
     justify-content: center;
 }
-#Service .upper{
+
+#Service .upper {
     display: flex;
-    height:10rem;
+    height: 10rem;
     margin: 2rem;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
-#Portfolio{
+
+#Portfolio {
     margin: 0;
     padding: 0;
 }
-#Portfolio img{
+
+#Portfolio img {
     margin: 0;
     padding: 0;
     width: 30rem;
 }
-#Portfolio .upper,.middle{
+
+#Portfolio .upper,
+.middle {
     display: flex;
     justify-content: center;
 }
-.middle div{
+
+.middle div {
     padding: 0%;
     margin: 0%;
 }
-#Portfolio .lower{
+
+#Portfolio .lower {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-#contact{
+
+#contact {
     height: 100vh;
 }
-#contact .left{
+
+#contact .left {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-#contact .right{
+
+#contact .right {
     display: flex;
     justify-content: center;
-    align-items: center; 
-} 
-#contact .right input{
+    align-items: center;
+}
+
+#contact .right input {
     display: flex;
     flex-direction: column;
     margin: 1rem;
     justify-content: center;
 }
-#contact .right .btn{
+
+#contact .right .btn {
     border-radius: 0.8rem;
     padding: 1rem;
     width: 10rem;
 }
+
+/* CSS For Mobile */
+@media screen and (max-width:426px) {
+    header nav {
+        display: none !important;
+    }
+
+    i {
+        display: flex !important;
+    }
+
+    nav {
+        height: 100%;
+        width: 100%;
+    }
+
+    #Service .upper {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    #Service {
+        height: 100%;
+        margin: 5rem;
+        padding: 5rem;
+    }
+
+    #Service .lower h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Service .upper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    #Service .up,h1,p {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+         align-items: center;
+    }
+
+    #Service .down,h1,p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Service .mid,h1,p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Service .end,h1,p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #Portfolio{
+        height: 100%;
+    }
+    #Portfolio .upper{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+    }
+    #Portfolio .lower{
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        width:20rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
